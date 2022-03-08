@@ -1,0 +1,14 @@
+controller_list:
+  - name: fake_Amber_planning_group_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - Rev2
+      - Rev3
+      - Rev6
+      - Rev7
+      - Rev9
+      - Rev10
+      - Rev12
+initial:  # Define initial robot poses per group
+  - group: Amber_planning_group
+    pose: Home

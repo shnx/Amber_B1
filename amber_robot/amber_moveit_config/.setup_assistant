@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: amber_urdf_description
+    relative_path: urdf/amber_urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/amber_urdf.srdf
+  CONFIG:
+    author_name: Mohammad Shannak
+    author_email: mohammedshannak@gmail.com
+    generated_timestamp: 1646337556

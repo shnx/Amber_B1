@@ -1,0 +1,13 @@
+controller_list:
+  - name: Amber_planning_group_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - Rev2
+      - Rev3
+      - Rev6
+      - Rev7
+      - Rev9
+      - Rev10
+      - Rev12
