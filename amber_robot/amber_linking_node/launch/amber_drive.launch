@@ -1,9 +1,0 @@
-<launch>
-<!-- start the driver and controller node  -->
-  <arg name="drive_start_delay" default="0.0" />  
-  <node name="mecademic_robot_driver" pkg="mecademic_robot_node" type="mecademic_robot_driver.py" launch-prefix="bash -c 'sleep $(arg drive_start_delay); $0 $@' " />
-  
-  <arg name="ctrl_start_delay" default="2.0" />  
-  <node name="mecademic_robot_controller" pkg="mecademic_robot_node" type="mecademic_robot_controller.py" launch-prefix="bash -c 'sleep $(arg ctrl_start_delay); $0 $@' " />
-
-</launch>
